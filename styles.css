@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("giphy.gif") ;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #000404;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white (223, 227, 229, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #128ab6;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #c5d5d3;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #1146cd;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
+ul {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #169591;
+}
+
+.delete-button {
+    background-color: #ce2727;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
